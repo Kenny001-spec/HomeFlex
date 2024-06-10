@@ -42,7 +42,7 @@ const ConfirmPurchase = ({ onConfirmPayment }) => {
       const provider = new ethers.providers.Web3Provider(window.ethereum);
       const signer = provider.getSigner();
       const tx = await signer.sendTransaction({
-        to: '0x759Ea4982188F201B593db78F68Bdd312dDA0748', // Replace with the seller's address
+        to: '0x5FbDB2315678afecb367f032d93F642f64180aa3', // Replace with the seller's address
         value: ethers.utils.parseEther(property.price.toString()),
       });
 
