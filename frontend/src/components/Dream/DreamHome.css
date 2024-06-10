@@ -1,0 +1,80 @@
+.dream-home {
+    width: 50%; 
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #333; 
+    border-radius: 10px; 
+    color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .header h1 {
+    font-weight: bold;
+    margin-left: 20px; 
+  }
+  
+  .title-highlight {
+    color: #934600; 
+    font-weight: bold;
+  }
+  
+  .features {
+    display: flex;
+    gap: 20px; 
+    margin-left: 20px; 
+  }
+  
+  .feature-item {
+    flex: 1; 
+    padding: 10px;
+    border-left: 2px solid red; 
+  }
+  
+  .bold-text {
+    font-weight: 700; 
+  }
+  
+  .normal-text {
+    font-weight: 400; 
+  }
+  
+  .navigate-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #934600;
+    background: linear-gradient(45deg, #934600, #ff7f00);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .navigate-button:hover {
+    background-color: #cc0000;
+  }
+
+  
+  /* Responsive Design */
+  @media (max-width: 767px) {
+    .dream-home {
+      width: 90%; 
+      margin: 10px auto; 
+    }
+  
+    .features {
+      flex-direction: column;
+      margin-left: 0; 
+      align-items: center;
+    }
+  
+    .feature-item {
+      border-left: none;
+      border-bottom: 2px solid red;
+      width: 100%;
+      text-align: center; 
+      margin-bottom: 10px;
+    }
+  }
+  

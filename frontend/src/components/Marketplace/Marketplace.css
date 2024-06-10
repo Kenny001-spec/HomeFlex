@@ -1,0 +1,205 @@
+/* General Styles */
+.blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+}
+
+.card {
+  flex: 1 1 calc(33% - 2rem);
+  margin-bottom: 2rem;
+  box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.4rem;
+  overflow: hidden;
+  background-color: #000;
+  max-width: calc(33% - 2rem);
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 18rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.status-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-button.sold {
+  background-color: red;
+}
+
+.status-button.unsold {
+  background-color: green;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.card-text {
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.card-creator, .card-description {
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.read-more {
+  text-align: center;
+  margin: 1rem;
+}
+
+.read-more button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ConfirmPurchase Styles */
+.confirm-purchase-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem; 
+}
+
+.purchase-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.confirmation-message {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.confirm-purchase-container .card {
+  flex: 1 1 calc(33% - 2rem);
+  margin-bottom: 2rem;
+  box-shadow: 0px 1px 9px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 1.4rem;
+  overflow: hidden;
+  background-color: #000;
+  max-width: calc(33% - 2rem);
+}
+
+.confirm-purchase-container .image-container {
+  position: relative;
+  width: 100%;
+  height: 18rem;
+}
+
+.confirm-purchase-container .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.confirm-purchase-container .card-body {
+  padding: 1rem;
+}
+
+.confirm-purchase-container .card-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #fff;
+}
+
+.confirm-purchase-container .card-text {
+  padding: 0 1rem;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.confirm-purchase-container .card-creator, .confirm-purchase-container .card-description {
+  padding: 0 1rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.confirm-purchase-container .button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.confirm-purchase-container .button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+    max-width: calc(50% - 2rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .blogs-container {
+    align-items: center;
+  }
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .purchase-heading {
+    font-size: 2rem;
+  }
+  .confirmation-message {
+    font-size: 1.2rem;
+  }
+  .confirm-purchase-container .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .confirm-purchase-container {
+    padding: 1rem; 
+  }
+}
