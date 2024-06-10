@@ -25,9 +25,9 @@ const Footer = () => {
         <div className="--footer-info">
           <div className="--contact">
             <h1>Contact</h1>
-            <p>Phone: (123) 456-7890</p>
+            <p>Phone: (+234) 816-2263-500</p>
             <p>Address: 123 Main St, Anytown, USA</p>
-            <p>Email: info@example.com</p>
+            <p>abubakarkehinde88@gmail.com</p>
             <div className="--social-links">
               <a href="https://www.linkedin.com/in/kehinde-abubakar-029223252" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
