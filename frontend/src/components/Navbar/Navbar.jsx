@@ -36,7 +36,7 @@ const Navbar = () => {
     <div>
       <nav className="nav-header">
         <h2>
-          <a href="/" className="logo-link">TokenEstate</a>
+          <a href="/" className="logo-link">HomeFlex</a>
         </h2>
         <ul className={isMenuOpen ? "nav-links open" : "nav-links"}>
           <li><a href="/marketplace">Marketplace</a></li>

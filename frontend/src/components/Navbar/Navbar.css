@@ -1,7 +1,7 @@
 /* General styles for the navigation bar */
 nav {
     color: black;
-    padding: 12px 24px;  /* Increased padding for better spacing */
+    padding: 12px 24px; 
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,15 +60,15 @@ nav ul li a:hover {
 
 /* Connect button and connected wallet address */
 .connect, .connect-address {
-    padding: 10px 20px;  /* Increased padding for better spacing */
+    padding: 10px 20px;  
     background: linear-gradient(45deg, #934600, #ff7f00);
     border: none;
     font-size: 16px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    color: white;  /* Ensure text color is consistent */
-    margin: 0;  /* Ensure no margin */
+    color: white;
+    margin: 0;
 }
 
 .connect:hover, .connect-address:hover {

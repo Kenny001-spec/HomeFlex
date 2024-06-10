@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faInstagram, faWhatsapp, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faInstagram, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
 const Footer = () => {
@@ -29,24 +29,24 @@ const Footer = () => {
             <p>Address: 123 Main St, Anytown, USA</p>
             <p>Email: info@example.com</p>
             <div className="--social-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/kehinde-abubakar-029223252" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://x.com/kennySpec" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/kennyx55/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faWhatsapp} />
+              <a href="https://github.com/Kenny001-spec" target="_blank" rel="noopener noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
               </a>
             </div>
           </div>
           <div className="links">
             <h1>Quick Links</h1>
             <a href="/faqs">FAQs</a>
-            <a href="/properties">Contact</a>
+            <a href="/contact">Contact</a>
             <a href="/terms">Terms of Service</a> 
           </div>
         </div>

@@ -93,11 +93,12 @@
   margin-right: 10px;
   color: white;
   text-decoration: none;
+  
 }
 
 .social-links a:hover,
 .links a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: #fff;
 }
 

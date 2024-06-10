@@ -8,11 +8,11 @@
 }
 
 .title h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   text-align: center;
   width: 100%;
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.731);
 }
 
 .card {

@@ -36,7 +36,7 @@ const Marketplace = ({ completedPurchases = [] }) => {
   return (
     <div className="blogs-container">
       <div className="title">
-        <h2>House MarketPlace</h2>
+        <h2>HOUSE MARKETPLACE</h2>
       </div>
 
       {properties.map(property => (
